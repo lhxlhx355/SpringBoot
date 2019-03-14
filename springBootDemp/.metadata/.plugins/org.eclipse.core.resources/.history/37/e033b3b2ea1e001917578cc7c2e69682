@@ -1,0 +1,17 @@
+package com.example.demo.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping()
+public class login {
+	 @RequestMapping("/initLogin")
+	    public String initLogin(Model model){
+	        
+	        model.addAttribute("model", "model:你被支持吗?");       
+	        return "hello";
+	        
+	    }
+}

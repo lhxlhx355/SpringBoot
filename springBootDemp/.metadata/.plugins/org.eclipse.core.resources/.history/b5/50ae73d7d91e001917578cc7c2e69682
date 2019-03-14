@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration scan="true" scanPeriod="60 seconds" debug="true">
+     <!--true 为可以看到 false 为不可以看到   -->
+      <!-- 其他配置省略-->
+</configuration>

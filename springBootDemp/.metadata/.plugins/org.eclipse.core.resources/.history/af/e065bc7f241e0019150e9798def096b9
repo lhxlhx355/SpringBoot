@@ -1,0 +1,10 @@
+package com.example.demo.controller;
+
+
+@RestController
+public class test {
+	 @RequestMapping("/hello")
+	    public String index() {
+	        return "Hello World";
+	    }
+}
